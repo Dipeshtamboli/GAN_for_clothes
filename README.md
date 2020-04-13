@@ -13,6 +13,10 @@ Input image from the domain A and it's domain B output.
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0004.png)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0003_in.jpg)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0003.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0002_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0002.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0001_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0001.png)
 
 
 Input image from the domain B and it's domain A output.   
@@ -22,4 +26,8 @@ Input image from the domain B and it's domain A output.
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0004.png)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0003_in.jpg)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0003.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0002_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0002.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0001_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0001.png)
 
