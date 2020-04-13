@@ -8,10 +8,10 @@ The training set consists of two different identities from the Market-1501 datas
 <!-- /home/dipesh/GAN_for_clothes/CycleGAN/output/A/0005_in.jpg -->
 Input image from the domain A and it's domain B output.
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0005_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0005.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/A/0005.png)
 
 
 Input image from the domain B and it's domain A output.
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0005_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0005.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output/B/0005.png)
 
