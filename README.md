@@ -64,6 +64,8 @@ Also from non-black to black.
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/A/0005_in.jpg)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/A/0005_out.png)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/A/0006_in.jpg)
+
+
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/A/0006_out.png)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/A/0007_in.jpg)
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/A/0007_out.png)
