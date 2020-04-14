@@ -7,6 +7,7 @@ The training set consists of two different identities from the Market-1501 datas
 
 <h3>For red to green</h3>
 Domain-A - ID_1 - green   
+
 Domain-B - ID_2 - Maroon   
 
 Input image from the domain A and it's domain B output.   
@@ -35,7 +36,8 @@ Input image from the domain B and it's domain A output.
 ![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_old/B/0001.png)
 
 <h3>For black to non-black clothes</h3>
-Domain-A - Several Ids - black   
+Domain-A - Several Ids - black
+
 Domain-B - Several Ids - non-black   
 
 Input image consisting of black shirt/t-shirt to non-black shirt/t-shirt output.   
