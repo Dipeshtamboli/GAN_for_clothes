@@ -24,8 +24,8 @@ parser.add_argument('--size', type=int, default=256, help='size of the data (squ
 # parser.add_argument('--cuda', action='store_true', help='use GPU computation')
 parser.add_argument('--cuda', default='true', action='store_true', help='use GPU computation')
 parser.add_argument('--n_cpu', type=int, default=8, help='number of cpu threads to use during batch generation')
-parser.add_argument('--generator_A2B', type=str, default='output/netG_A2B.pth', help='A2B generator checkpoint file')
-parser.add_argument('--generator_B2A', type=str, default='output/netG_B2A.pth', help='B2A generator checkpoint file')
+parser.add_argument('--generator_A2B', type=str, default='output_v1/netG_A2B.pth', help='A2B generator checkpoint file')
+parser.add_argument('--generator_B2A', type=str, default='output_v1/netG_B2A.pth', help='B2A generator checkpoint file')
 opt = parser.parse_args()
 print(opt)
 
@@ -84,8 +84,10 @@ for i, batch in enumerate(dataloader):
     fake_A = 0.5*(netG_B2A(real_B).data + 1.0)
 
     # Save image files
-    save_image(fake_A, 'output/A/%04d.png' % (i+1))
-    save_image(fake_B, 'output/B/%04d.png' % (i+1))
+    save_image(real_A, 'output/A/%04d_in.png' % (i+1))
+    save_image(real_B, 'output/B/%04d_in.png' % (i+1))
+    save_image(fake_A, 'output/A/%04d_out.png' % (i+1))
+    save_image(fake_B, 'output/B/%04d_out.png' % (i+1))
 
     sys.stdout.write('\rGenerated images %04d of %04d' % (i+1, len(dataloader)))
 
