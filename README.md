@@ -36,13 +36,13 @@ Input image from the domain B and it's domain A output.
 <h3>For black to non-black clothes</h3>
 
 Input image consisting of black shirt/t-shirt to non-black shirt/t-shirt output.   
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0001_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0001_out.png)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0002_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0002_out.png)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0003_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0003_out.png)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0004_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0004_out.png)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0005_in.jpg)
-![](https://github.com/Dipeshtamboli/GAN_for_clothes/CycleGAN/output_v1/B/0005_out.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0001_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0001_out.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0002_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0002_out.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0003_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0003_out.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0004_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0004_out.png)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0005_in.jpg)
+![](https://github.com/Dipeshtamboli/GAN_for_clothes/blob/master/CycleGAN/output_v1/B/0005_out.png)
