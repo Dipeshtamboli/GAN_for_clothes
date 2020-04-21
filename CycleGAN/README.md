@@ -1,17 +1,6 @@
 # Pytorch-CycleGAN
 A clean and readable Pytorch implementation of CycleGAN (https://arxiv.org/abs/1703.10593)
 
-## Prerequisites
-Code is intended to work with ```Python 3.6.x```, it hasn't been tested with previous versions
-
-### [PyTorch & torchvision](http://pytorch.org/)
-Follow the instructions in [pytorch.org](http://pytorch.org) for your current setup
-
-### [Visdom](https://github.com/facebookresearch/visdom)
-To plot loss graphs and draw images in a nice web browser view
-```
-pip3 install visdom
-```
 
 ## Training
 ### 1. Setup the dataset
@@ -67,5 +56,3 @@ Examples of the generated outputs (default params, horse2zebra dataset):
 ## License
 This project is licensed under the GPL v3 License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-Code is basically a cleaner and less obscured implementation of [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). All credit goes to the authors of [CycleGAN](https://arxiv.org/abs/1703.10593), Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A.
