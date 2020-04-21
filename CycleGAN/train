@@ -18,7 +18,10 @@ from utils import weights_init_normal
 from datasets import ImageDataset
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
-
+##
+version = "v2"
+output_folder_name = "output_{}".format(version)
+##
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', type=int, default=0, help='starting epoch')
 parser.add_argument('--n_epochs', type=int, default=200, help='number of epochs of training')
@@ -94,11 +97,10 @@ dataloader = DataLoader(ImageDataset(opt.dataroot, transforms_=transforms_, unal
 # Loss plot
 # logger = Logger(opt.n_epochs, len(dataloader))
 ###################################
-# Create output dirs if they don't exist
-if not os.path.exists('output/A'):
-    os.makedirs('output/A')
-if not os.path.exists('output/B'):
-    os.makedirs('output/B')
+if not os.path.exists(output_folder_name):
+    os.makedirs(output_folder_name)
+if not os.path.exists(output_folder_name):
+    os.makedirs(output_folder_name)
 ###### Training ######
 for epoch in range(opt.epoch, opt.n_epochs):
     for i, batch in enumerate(dataloader):
@@ -193,10 +195,9 @@ for epoch in range(opt.epoch, opt.n_epochs):
     lr_scheduler_D_A.step()
     lr_scheduler_D_B.step()
 
-
     # Save models checkpoints
-    torch.save(netG_A2B.state_dict(), 'output_v2/netG_A2B.pth')
-    torch.save(netG_B2A.state_dict(), 'output_v2/netG_B2A.pth')
-    torch.save(netD_A.state_dict(), 'output_v2/netD_A.pth')
-    torch.save(netD_B.state_dict(), 'output_v2/netD_B.pth')
+    torch.save(netG_A2B.state_dict(), output_folder_name+'/netG_A2B.pth')
+    torch.save(netG_B2A.state_dict(), output_folder_name+'/netG_B2A.pth')
+    torch.save(netD_A.state_dict(), output_folder_name+'/netD_A.pth')
+    torch.save(netD_B.state_dict(), output_folder_name+'/netD_B.pth')
 ###################################
