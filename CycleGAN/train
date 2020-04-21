@@ -94,7 +94,11 @@ dataloader = DataLoader(ImageDataset(opt.dataroot, transforms_=transforms_, unal
 # Loss plot
 # logger = Logger(opt.n_epochs, len(dataloader))
 ###################################
-
+# Create output dirs if they don't exist
+if not os.path.exists('output/A'):
+    os.makedirs('output/A')
+if not os.path.exists('output/B'):
+    os.makedirs('output/B')
 ###### Training ######
 for epoch in range(opt.epoch, opt.n_epochs):
     for i, batch in enumerate(dataloader):
@@ -188,6 +192,7 @@ for epoch in range(opt.epoch, opt.n_epochs):
     lr_scheduler_G.step()
     lr_scheduler_D_A.step()
     lr_scheduler_D_B.step()
+
 
     # Save models checkpoints
     torch.save(netG_A2B.state_dict(), 'output/netG_A2B.pth')
